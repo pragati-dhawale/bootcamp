@@ -1,0 +1,179 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border:6px;
+            display: flex;
+            background-color: rgb(166, 179, 207);
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+
+        }
+        .flex1{
+            background-color: blueviolet;
+        }
+        .flex2{
+            background-color: rgb(226, 43, 150);
+        }
+        .flex3{
+            order: 1;
+            background-color: rgb(62, 172, 185);
+        }
+        .flex4{
+            order:1;
+            background-color: rgb(43, 226, 171);
+        }
+        .flex5{
+            background-color: rgb(220, 226, 43);
+        }
+        .flex6{
+            background-color: rgb(226, 43, 70);
+        }
+        .flex7{
+            background-color: rgb(58, 226, 43);
+        }
+        .flex-item{
+            text-align: center;
+        }
+        .flex{
+            padding: 30px;
+            /* height: 30px; */
+            text-align: center;
+            display: flex;
+            border: 2px solid black;
+            /* flex-direction: column-reverse; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex flex">Item-1</div>
+        <div class="flex flex2">Item-2</div>
+        <div class="flex flex3">Item-3</div>
+        <div class="flex flex4">Item-4</div>
+        <div class="flex flex5">Item-5</div>
+        <div class="flex flex6">Item-6</div>
+        <div class="flex flex7">Item-7</div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .container {
+        border: 6px solid black;
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        align-content: space-evenly; */
+        height: 500px;
+        align-items: flex-end;
+      }
+      .flex-item {
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+        /* flex-grow: 1; */
+        flex-shrink: 0;
+      }
+      .item-1 {
+        background-color: red;
+        /* flex-basis: 200px; */
+        align-self: flex-start;
+      }
+      .item-2 {
+        background-color: green;
+        /* order: 0; */
+        /* flex-grow: 2;
+        flex-shrink: 4;
+        flex-basis: 200px; */
+        /* flex: 0 1 auto; */
+        /* flex: 1; flex-grow */
+        /* flex: 10em; flex-basis */
+        /* flex: 2 2; flex-grow flex-shrink */
+        /* flex: 1 10em; flex-grow flex-basis */
+        align-self: flex-end;
+      }
+      .item-3 {
+        background-color: blue;
+        /* flex-grow: 0; */
+        align-self: center;
+      }
+      .item-4 {
+        background-color: yellow;
+        /* flex-grow: 2; */
+        /* flex-shrink: 4; */
+        align-self: stretch;
+      }
+      .item-5 {
+        background-color: purple;
+        /* order: 1; */
+        /* flex-grow: 1; */
+        /* align-self: auto; */
+      }
+      .item-6 {
+        background-color: tomato;
+        /* flex-grow: 3; */
+      }
+      .item-7 {
+        background-color: orange;
+        /* order: 2; */
+      }
+      .item-8 {
+        background-color: pink;
+        /* order: 5; */
+      }
+      .item-9 {
+        background-color: brown;
+        /* order: 3; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-item item-1">Item 1</div>
+      <div class="flex-item item-2">Item 2</div>
+      <div class="flex-item item-3">Item 3</div>
+      <div class="flex-item item-4">Item 4</div>
+      <div class="flex-item item-5">Item 5</div>
+      <div class="flex-item item-6">Item 6</div>
+      <div class="flex-item item-7">Item 7</div>
+      <div class="flex-item item-8">Item 8</div>
+      <div class="flex-item item-9">Item 9</div>
+    </div>
+
+    <!-- Flex container properties -->
+    <!-- 1. display
+    2. flex-direction
+    3. flex-wrap
+    4. flex-flow
+    5. justify-content
+    6. align-items
+    7. align-content -->
+
+    <!-- Flex item properties -->
+    <!-- 1. order
+    2. flex-grow
+    3. flex-shrink
+    4. flex-basis
+    5. flex
+    6. align-self -->
+  </body>
+</html>

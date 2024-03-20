@@ -1,0 +1,82 @@
+ 
+.over{
+    margin-left: 15px;
+    height:100px;
+    width: 70px;
+    display: inline-block;
+    background-color: rgb(193, 208, 203);
+    overflow-y:scroll;
+}
+#seconddiv{
+    overflow-x: scroll;
+    width: 90px;
+    background-color: rgb(233, 120, 171);
+}
+/* div:nth-child(3){
+    background-color:aqua;
+    overflow-y: scroll;
+     
+}
+div:nth-child(4){
+    background-color: rgb(218, 127, 180);
+    overflow-x:auto;
+} */
+p::first-letter{
+    font-size: xx-large;
+}
+p{
+    margin-right: 50px;
+    font-size: x-small;
+}
+img{
+    height: 220px;
+    width: 220px;
+    border-radius: 200px;
+    margin:25px;
+    float: right;
+}
+#Flower{
+    float:left
+}
+h1{
+    background-color: plum;
+    text-align: center;
+    border-radius: 15px;
+    font-size: x-large;
+}
+input{
+    /* float:left; */
+    /* margin:20px; */
+    /* padding: 10px 20px; */
+    border:none;
+    outline:auto;
+}
+#logo{
+    font-size: x-large;
+    color:chocolate
+}
+#navbar{
+    border: 2px rgb(146, 84, 139) dashed;
+    color:azure;
+    height: 30px;
+    /* margin:50px; */
+    /* display: inline; */
+    background-color: rgb(105, 17, 71);
+}
+a{
+    text-decoration: underline;
+    margin:50px;
+}
+a:hover{
+    color:rgb(37, 2, 2);
+    border-bottom: 2px solid rgb(0, 234, 255);
+}
+header{
+    border:1px solid;
+    height: 30px;
+    background-color: aquamarine;
+}
+button{
+    background-color: rgb(99, 189, 96);
+}
+

@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+.mainpage{
+    margin-top: 10px;
+    margin-left: 9px;
+    background-color: black;
+    border:2px solid black;
+    border-radius: 20px;
+    height:520px;
+    width:270px;
+    color:white
+}
+.navbar{
+    font-size: large;
+    margin-top: 15px;
+    background-color: rgb(1, 13, 9);
+    border-radius: 20px;
+
+    /* border:2px solid black; */
+    height: 25px;
+    justify-content: space-between;
+}
+/* #nev{
+    justify-content: space-between;
+} */
+.story{
+    /* border:2px solid black; */
+    height: 80px;
+}
+.story_pic{
+   height:55px;
+   width: 55px;
+   margin-top:7px;
+   border-radius: 50px;
+   border :2px solid rgb(198, 250, 153);
+}
+.name{
+    position:absolute;
+    top:20px;
+    font-size: x-small;
+    justify-content: space-evenly;
+
+}
+.inpost{
+    width: 260px;
+    height: 200px;
+    margin:2px;
+    margin-bottom: 13px;
+}
+#mydp{
+    margin-right: 25px;
+    height: 40px;
+    border-radius: 50px;
+    float: left;
+}
+#plus{
+    background-color: white;
+    position: absolute;
+    top:147px;
+    left: 95px;
+    color:blue;
+    font-size: large;  
+}
+#unread{
+    position: relative;
+    font-size: x-small;
+    right: 16px;
+    bottom: 13px;
+    color: rgb(0, 255, 21);
+    background-color: rgb(225, 47, 19);
+}
+#myimg{
+    border: 3px yellow solid;
+}
+#namepost{
+    margin-top: 20px;
+    font-size: medium;
+
+}
+.dis{
+    font-size:x-small;
+    font-style: oblique;
+}
+.footer{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 20px;
+    color: aliceblue;
+    background-color: rgb(1, 13, 9);
+    font-size: large;
+    justify-content: space-around;
+}
+.n{
+    position: relative;
+    top: 150px;
+    margin-right: 20px;
+}
+i{
+    color: white;
+    /* margin-top: 20px; */
+}
+.icons{
+    margin-top: 20px;
+    /* justify-items: space-around; */
+}
+#heart{
+    color:red;
+    font-size: 20px;
+    /* background-color: red; */
+}
+#img-name{
+    display: inline;
+}
+#outline{
+    border: 3px solid black;
+    border-radius:30px;
+    height:540px;
+    width:290px;
+    margin-top: 40px;
+    margin-left: 40px;
+}

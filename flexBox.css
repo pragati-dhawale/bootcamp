@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.outbox{
+    background-color: #118a7e;
+    height: 2000px;
+    width: 1000px;
+
+}
+.heder{
+    align-content: center;
+    background-color: #93e4c1;
+    height: 40px;
+    width:990px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-color:#3baea0;
+    height:70px;
+    width:70px;
+}
+.navbar{
+    background-color: antiquewhite;
+    height:30px;
+    width:500px;
+    justify-content: flex-end;   
+}
+a{
+    margin-right: 50px;
+}
+.heder_main{
+
+    display: flex ;
+
+}
+.out_section{
+    margin-top: 30px;
+    background-color: crimson;
+    height:350px;
+    width:270px;
+}
+.section1{
+    /* background-image: url('./webimages/bags.jpg'); */
+    height: 180px;
+    width:220px;
+    margin: 30px;
+}
+.box{
+    background-color: rgb(160, 95, 138);
+    height: 250px;
+    width: 750px; */
+    align-content:space-around ;
+    justify-content: space-around;
+    /* align-content: space-around; */
+    border: 2px solid black;
+    align-items: center;
+    display:flex;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+.boxes{background-image: url('piza.jpeg');
+
+    height: 240px;
+    width: 140px;
+    background-color: chocolate;
+    justify-content: space-between;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    background-color: green;
+}
+#section-img{
+    height: 280px;
+    width:220px;
+    margin: 30px;
+}
+
+

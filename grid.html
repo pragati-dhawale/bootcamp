@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            width: 720px;
+            height: 495px;
+            background-color:rgb(243, 243, 235);
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:  25px 150px 200px 30px;
+            gap: 15px;
+            grid-template-areas: 
+            "header header header"
+            "sidebar content1 content1 "
+            "sidebar content2 content3"
+            "footer footer footer"
+        }
+        .items{
+            color:black;
+        }
+        .header{
+            background-color: rgb(191, 141, 238);
+            grid-area: header;
+        }
+        .sidebar{
+            background-color: pink;
+            grid-area: sidebar;
+        }
+        .content1{
+            background-color:green;
+            grid-area: content1;
+        }
+        .content2{
+            background-color: darkmagenta;
+            grid-area:content2;
+        }
+        .content3{
+            background-color: crimson;
+            grid-area: content3;
+        }
+        .footer{
+            background-color: chartreuse;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items header">header</div>
+        <div class="items sidebar">sidebar</div>
+        <div class="items content1">content-1</div>
+        <div class="items content2">content-2</div>
+        <div class="items content3">content-3</div>
+        <div class="items footer">footer</div>
+    </div>
+    
+</body>
+</html>

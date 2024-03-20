@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .container{
+            border:2px solid black;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(194, 54, 198);
+            position: absolute;
+            animation-name: animation;
+            animation-duration: 10s;
+
+        }
+        @keyframes animation{
+            /* from{
+                 top:50px
+            }
+            to{
+               top: 500px;
+            } */
+            10%{
+                background-color: black;
+                /* transform: matrix3d(20); */
+                transform: rotate3d(70deg);
+            }
+            20%{
+                background-color: chartreuse;
+            }
+            30%{
+                background-color: gold;
+            }
+            40%{
+                background-color: deeppink;
+            }
+
+        }
+        /* .box:hover{
+            width:300px;
+            height:180px;
+            background-color: rgb(206, 32, 67);
+            transform: rotate(180deg);
+            border: 3px solid black;
+            border-radius: 100px;
+            /* transition-property: width,height,background-color; */
+            /* transition-duration: 5s; */
+            /* transition:linear; */
+            /* shorthand=transition: propertyName duration timing-fun delay;  */
+            /* transition:all,5s; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+       </div>
+    </div>
+</body>
+</html>
