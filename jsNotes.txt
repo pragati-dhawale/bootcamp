@@ -1,0 +1,10 @@
+Math.floor is use to round the value downwords
+means if we use the console.log(math.floor(3.4)......so it will give the out put as the 3 means it will make the value less 
+
+Math.ceil =
+it round the number to the upwords means if i will round the value as the  3.4 so it will give as the 4
+js 
+
+ and in the round method it round dthe number as the its nearest number means it gve the numbers of its nearest number like .1 to .5 it will round down and .5 to .9 it will rond as the upwords
+ 
+ how to fix the digit of the 

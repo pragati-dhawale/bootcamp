@@ -1,0 +1,39 @@
+ /* Default light theme */
+ body{
+    background-color: white;
+ }
+.box {
+    background-color: rgb(203, 193, 203);
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+/* Dark theme */
+.box.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-theme .box {
+    background-color: #555;
+    border: 2px solid white;
+}
+
+button {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Button text colors for themes */
+/* body.light-theme #theme-toggle {
+    color: black;
+    background-color: rgb(178, 84, 206);
+}
+
+body.dark-theme #theme-toggle {
+    color: white;
+    background-color: rgb(26, 1, 1);
+} */
